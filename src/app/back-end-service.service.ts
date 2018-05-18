@@ -7,10 +7,10 @@ export class BackEndServiceService {
   details: Details[];
 
   constructor() {
-    this.details=[{ name: "Manish", age: 25, about :"Currently working at Microsoft"},
-    { name: "Haneesh", age: 23, about :"Currently working at FaceBook"},
-    {name: "Naresh", age: 24, about :"Currently working at Visa"},
-    { name: "Prasanth", age: 26, about :"Currently working at TradeWeb"}];
+    this.details=[{ name: "Manish", age: 25, about :"Microsoft"},
+    { name: "Haneesh", age: 23, about :"FaceBook"},
+    {name: "Naresh", age: 24, about :"Visa"},
+    { name: "Prasanth", age: 26, about :"TradeWeb"}];
    }
 
    getDetails(): Details[] {
